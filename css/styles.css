@@ -1,1 +1,119 @@
+/** BODY **/
+body {
+  font-size: 16px;
+  font-family: Times, Arial, Helvetica;
+  background-color: #40E0D0 ;
+
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.75em;
+  color: #4169E1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 96%;
+  background-color: #FFFFFF;
+  padding: 10px;
+  padding-top: 30px;
+  border: 1px solid black;
+  margin: 2%;
+  position: relative; 
+  font-size: 1em;
+}
+
+.boxh {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  position: absolute; 
+  top: 0px;
+  right: 0px;
+  font-size: 1.25em;
+}
+
+.content {
+  float: clear;
+  float: right;
+  text-align: justify;
+}
+   
+#box1 {
+  background-color: #4169E1;
+    color: #FAEC01;
+}
+#box2 {
+  background-color: #4169E1;
+  color: #FAEC01;
+}
+#box3 {
+  background-color: #4169E1;
+    color: #FAEC01;
+}
+
+/** END BODY **/  
+
+/** HEADER **/
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  color: #FAEC01;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FAEC01;
+}
+.navbar-header button.navbar-toggle {
+  float: right;
+  margin-top: 15px;
+}
+
+#header-nav {  
+  background-color: #4169E1 ;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FAEC01;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #FFFFFF;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+/* END HEADER */
 
